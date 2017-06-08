@@ -1,0 +1,197 @@
+/*---------------------------------------------------*/
+/* SETUP */
+/*---------------------------------------------------*/
+
+body {
+		background-color: #fff;
+  	font-family: 'Lato', 'Arial', sans-serif;
+  	font-weight: 300;
+  	font-size: 20px;
+    line-height: 170%;
+    letter-spacing: 1%;
+}
+
+/*---------------------------------------------------*/
+/* HEADER AND LANDING PAGE */
+/*---------------------------------------------------*/
+
+.navbar {
+	font-size: 80%;
+	font-weight: 400;
+	background-color: #fff;
+	padding: 10px;
+	margin: 0 auto;
+	border: none;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a:link,
+.navbar-default .navbar-nav>li>a:visited,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    letter-spacing: 3px;
+}
+
+.jumbotron {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/images/hiking-min.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
+	margin-bottom: 0;
+}
+
+/*---------------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/*---------------------------------------------------*/
+
+/* ------- HEADINGS ------- */
+.jumbotron h1 {
+	font-size: 200%;
+	letter-spacing: 5px;
+	text-align: center;
+	color: #eee;
+}
+
+.jumbotron h2 {
+	font-size: 130%;
+	letter-spacing: 5px;
+	text-align: center;
+	padding-bottom: 20px;
+	color: #eee;
+}
+
+h2,
+h3,
+h4  {
+	letter-spacing: 3px;
+	font-weight: 300;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+hr {
+	width: 40%;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: : 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/*---------------------------------------------------*/
+/* ABOUT */
+/*---------------------------------------------------*/
+
+.about-section {
+	padding: 50px 0;
+	font-size: 90%;
+}
+
+.about-section hr {
+	width: 40%;
+	border-top: 1px solid #bfbfbf;
+	border-bottom: : 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.guides img {
+	border-radius: 50%;
+	display: block;
+	margin: 5px auto;
+}
+
+/*---------------------------------------------------*/
+/* TOURS */
+/*---------------------------------------------------*/
+
+.tours-section {
+	background-color: #eee;
+	padding: 60px 0;
+}
+
+.tour img {
+	width: 100%;
+	display: block;
+}
+
+.tour p {
+	font-size: 80%;
+	padding: 10px;
+}
+
+/*---------------------------------------------------*/
+/* TESTIMONIALS */
+/*---------------------------------------------------*/
+
+.testimonials-section {
+	padding: 60px 0;
+	background-color: #a9a389;
+	color: white;
+}
+
+/*---------------------------------------------------*/
+/* CONTACT */
+/*---------------------------------------------------*/
+
+.contact-section {
+	padding: 60px 0;
+}
+
+.center-form {
+	width: 50%;
+	margin: 10px auto;
+}
+
+/*---------------------------------------------------*/
+/* FOOTER */
+/*---------------------------------------------------*/
+
+footer {
+	background-color: #616243;
+}
+
+.footer-social-media {
+	list-style: none;
+}
+
+.footer-social-media ul {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-social-media li {
+	margin: 20px 40px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.footer-social-media li a:link,
+.footer-social-media li a:visited {
+	color: #fff;
+}
+
+.fa-facebook:hover {
+	color: #3b5998;
+}
+
+.fa-twitter:hover {
+	color:#00aced;
+}
+
+.fa-instagram:hover {
+	color:#af2e00;
+}
+
+.footer-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-nav li {
+	margin: 20px 20px;
+	display: inline-block;
+	font-size: 15px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {
+	color: #fff;
+}
